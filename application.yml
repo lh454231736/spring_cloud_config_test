@@ -1,0 +1,22 @@
+spring: 
+ profiles: 
+  active: dev
+---
+#开发环境
+spring:
+ profiles: dev
+ application: 
+  name: config-server-dev-5656
+server: 
+ port: 5656
+---
+#测试环境
+spring: 
+ profiles: test
+ application: 
+  name: config-server-test-5657
+server:
+ port: 5657  
+ 
+ 
+ 
