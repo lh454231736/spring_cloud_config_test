@@ -1,6 +1,6 @@
-spring: 
- profiles: 
-  active: dev
+#spring: 
+# profiles: 
+#  active: dev
 ---
 #开发环境
 spring:
@@ -12,9 +12,9 @@ server:
 ---
 #测试环境
 spring: 
- profiles: test
+ profiles: prd
  application: 
-  name: config-server-test-5657
+  name: config-server-prd-5657
 server:
  port: 5657  
  
